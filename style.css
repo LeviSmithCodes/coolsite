@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  font-size: 18pt;
+}
+
+header {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  min-height: 10vh;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 40vw;
+  align-self: center;
+}
+
+main h1 {
+  border-top: solid;
+  border-top-width: 15px;
+  border-top-color: darkblue;
+}
+
+img.resize {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+aside {
+  align: right;
+}
+
+footer {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: xx-large;
+  padding: 45px;
+  text-align: center;
+  min-height: 10vh;
+}
