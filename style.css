@@ -14,9 +14,11 @@ header {
 }
 
 main {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   max-width: 40vw;
-  align-self: center;
+  /* align-self: center; */
+  position: relative; /*not sure what this means*/
+  left: 20vw;
 }
 
 main h1 {
@@ -31,7 +33,20 @@ img.resize {
 }
 
 aside {
-  align: right;
+  position: absolute;
+  top: 40vh;
+  left: 70vw;
+}
+
+aside h2 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+aside p {
+  margin-top: 0;
+  font-size: 15px;
+  width: 300px;
 }
 
 footer {
